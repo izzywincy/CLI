@@ -8,7 +8,7 @@ This is a C++ application that replicates the output of the `nvidia-smi` command
 
 ## Entry Class
 
-The main function is located in the `nvidia-smi-mock.cpp` file.
+The main function is located in the `nvidia-smi.cpp` file.
 
 ## Requirements
 
@@ -28,8 +28,8 @@ The main function is located in the `nvidia-smi-mock.cpp` file.
 1. Navigate to the directory where nvidia-smi-mock.cpp is located.
 2. Compile the program using the following command:
    ```bash
-   g++ -o nvidia-smi-mock nvdia-smi-mock.cpp -lncurses 
+   g++ -o nvidia-smi nvdia-smi.cpp -lncurses 
 3. Run the program:
    ```bash
-   ./nvidia-smi-mock
+   ./nvidia-smi
    
